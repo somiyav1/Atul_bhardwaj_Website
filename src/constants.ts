@@ -45,7 +45,7 @@ export const CV_DATA = {
       role: "CAE Intern & Master Thesis Student",
       period: "09/2021 – 10/2022",
       highlights: [
-        "Master Thesis: Target Setting for CAE Crash Requirements for Helmless E-Scooter: Researched CAE crash requirements for a helmetless E-Scooter, earning 1.3/5.0. Design and complete CAE development of a helmet-free e-scooter with protective roof and seat belts - all crash scenarios in accordance with regulations, seat belt design, and other stiffness simulations such as roof deformation and pit falls."
+        "Master Thesis: Target Setting for CAE Crash Requirements for Helmless E-Scooter: Researched CAE crash requirements for a helmetless E-Scooter, earning 1.3/5.0. Design and complete CAE development of a helmet-free e-scooter with protective roof and seat belts - all crash scenarios in accordance with regulations, seat belt design, and other stiffness simulations such as roof deformation and pit falls.",
         "Performed crash & modal analysis for McLaren, Porsche and other OEMs.",
         "Applied AI/ML regression models to predict energy absorption of crash pads, reducing physical design iterations by 30%."
       ]

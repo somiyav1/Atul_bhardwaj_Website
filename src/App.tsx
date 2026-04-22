@@ -41,7 +41,7 @@ const SkillBadge = ({ skill }: { skill: string; key?: React.Key }) => (
   </span>
 );
 
-const PROFILE_PHOTO_URL = "public/img/profile.png";
+const PROFILE_PHOTO_URL = "img/profile.png";
 
 export default function App() {
   const [activeExpIdx, setActiveExpIdx] = useState(0);
@@ -152,20 +152,20 @@ export default function App() {
         {/* Expertise Section - Bento Grid */}
         <section className="p-8 md:p-16 lg:p-24 border-b border-line">
           <SectionHeader title="Expertise" subtitle="Core Competencies" />
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {CV_DATA.skills.map((cat, idx) => (
               <motion.div 
                 key={idx}
                 whileHover={{ y: -8 }}
                 className="p-8 border border-line rounded-2xl bg-white/30 backdrop-blur-sm group transition-all"
               >
-                <div className="flex items-center justify-between mb-8">
-                  <div className="p-3 bg-ink text-bg rounded-xl group-hover:bg-accent transition-colors">
+                <div className="grid grid-cols-8 items-center mb-8">
+                  <div className="justify-self-start p-3 bg-ink text-bg rounded-xl group-hover:bg-accent transition-colors">
                     {cat.category.includes("CAE") && <Cpu size={24} />}
                     {cat.category.includes("CAD") && <Layers size={24} />}
                     {cat.category.includes("Expertise") && <Shield size={24} />}
                   </div>
-                  <h4 className="font-serif italic text-2xl">{cat.category}</h4>
+                  <h4 className="col-start-2 text-center font-serif italic text-2xl col-end-10">{cat.category}</h4>
                 </div>
                 <div className="flex flex-wrap gap-2">
                   {cat.skills.map((skill, i) => (

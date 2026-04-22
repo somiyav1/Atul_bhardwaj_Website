@@ -7,18 +7,18 @@ export const CV_DATA = {
   phone: "+49 176 3638 4512",
   summary: "Stress Engineer with 6+ years of experience in structural mechanics, linear and non-linear analysis, and finite element simulation of safety-critical systems. Strong background in modal analysis, vibration, fatigue, and test–simulation correlation. Comfortable owning simulations end-to-end, building simplified and high-fidelity models, deriving realistic loads and boundary conditions, and validating results to support design decisions. Hands-on with Python and FEA tools in fast-paced, high-ownership engineering environments.",
   links: {
-    linkedin: "https://linkedin.com/in/atul-bhardwaj-768a44146",
-    github: "https://github.com/atulbhardwajmadan",
-    xing: "https://www.xing.com/profile/Atul_Bhardwaj7"
+    linkedin: "https://www.linkedin.com/in/atulbhardwaj88/",
+    github: "https://github.com/atulmadan09",
+    xing: "https://www.xing.com/profile/Atul_Bhardwaj3/"
   },
   skills: [
     {
       category: "CAE Tools",
-      skills: ["LS-DYNA", "ANSYS", "Primer", "META", "ANSA", "Abaqus", "Nastran", "Animator", "Hypermesh", "COMSOL", "Optistruct", "Simulink", "MATLAB"]
+      skills: ["LS-DYNA", "ANSYS", "Primer", "META", "ANSA", "Abaqus", "Nastran", "Animator", "Hypermesh", "COMSOL", "Optistruct", "Simulink"]
     },
     {
       category: "Programming & CAD",
-      skills: ["Python", "C", "Linux", "CATIA", "NX", "SolidWorks"]
+      skills: ["Linux", "Python", "C", "MATLAB", "CATIA", "NX", "SolidWorks"]
     },
     {
       category: "Analysis Expertise",
@@ -27,24 +27,25 @@ export const CV_DATA = {
   ],
   experience: [
     {
-      company: "EDAG Group",
+      company: "EDAG Engineering GmbH",
       location: "Stuttgart, Germany",
       role: "CAE Engineer: Crash & Vehicle Safety",
       period: "11/2022 – Present",
       highlights: [
         "Developed and validated FE models for structural, dynamic, and nonlinear behaviour using LS-DYNA, ANSYS, ANSA and Abaqus for whole-vehicle crash simulations (side, frontal, rollover).",
         "Managed crash simulations for leading OEMs (e.g. Porsche), specializing in occupant safety for children and rear passengers (FMVSS, US NCAP, IIHS, Euro NCAP).",
-        "Led CAE development of SUV door structures for stiffness & impact validation, reducing early design risk through CAD feasibility studies.",
+        "Led CAE development of SUV door structures for stiffness & impact validation(performing impactor validation, intrusion resistance, and multi-barrier crash analysis), reducing early design risk through CAD feasibility studies.",
         "Design and validate an innovative helmetless electric two-wheeler with seatbelt (FMVSS 216).",
         "Automated ANSA model setup and result post-processing via Python scripting, reducing report creation time by 50%."
       ]
     },
     {
-      company: "EDAG Group",
+      company: "EDAG Engineering GmbH",
       location: "Cologne, Germany",
       role: "CAE Intern & Master Thesis Student",
       period: "09/2021 – 10/2022",
       highlights: [
+        "Master Thesis: Target Setting for CAE Crash Requirements for Helmless E-Scooter: Researched CAE crash requirements for a helmetless E-Scooter, earning 1.3/5.0. Design and complete CAE development of a helmet-free e-scooter with protective roof and seat belts - all crash scenarios in accordance with regulations, seat belt design, and other stiffness simulations such as roof deformation and pit falls."
         "Performed crash & modal analysis for McLaren, Porsche and other OEMs.",
         "Applied AI/ML regression models to predict energy absorption of crash pads, reducing physical design iterations by 30%."
       ]

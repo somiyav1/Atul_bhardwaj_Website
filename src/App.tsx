@@ -140,8 +140,8 @@ export default function App() {
                 </a>
               </div>
               <p className="text-[10px] font-mono leading-relaxed opacity-40 uppercase tracking-widest">
-                Permit: German Residence<br />
-                Ready for Dispatch: Immediate
+                Visa Permit: Niederlassungserlaubnis<br />
+                Availability: Immediate
               </p>
             </div>
           </div>
@@ -151,7 +151,7 @@ export default function App() {
       <main className="max-w-7xl mx-auto">
         {/* Expertise Section - Bento Grid */}
         <section className="p-8 md:p-16 lg:p-24 border-b border-line">
-          <SectionHeader title="Expertise" subtitle="Technological Matrix" />
+          <SectionHeader title="Expertise" subtitle="Core Competencies" />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {CV_DATA.skills.map((cat, idx) => (
               <motion.div 

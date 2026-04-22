@@ -41,7 +41,7 @@ const SkillBadge = ({ skill }: { skill: string; key?: React.Key }) => (
   </span>
 );
 
-const PROFILE_PHOTO_URL = "src/profile.png";
+const PROFILE_PHOTO_URL = "public/img/profile.png";
 
 export default function App() {
   const [activeExpIdx, setActiveExpIdx] = useState(0);
